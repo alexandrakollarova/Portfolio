@@ -1,0 +1,140 @@
+body {
+    background-color: #CCD1D1;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.about {
+    text-decoration-line: line-through;
+    font-style: italic;
+}
+
+
+h1 {
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+    margin-top: -60px
+}
+
+.about-intro p {
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+    float: left
+}
+
+img {
+    width: 80%;
+    float: right;
+}
+
+#placeholder-img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-color: grey;
+
+}
+
+@media screen and (min-width: 450px) {
+
+    .about-intro h1 {
+        font-size: 35px;
+        transition: all ease-in-out 2s;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+
+    .about-intro h1 {
+        font-size: 35px;
+    }
+
+    img {
+        width: 65%;
+    }
+
+    #placeholder-img {
+        width: 350px;
+        height: 350px;
+    }
+   
+}
+
+
+@media screen and (min-width: 600px) {
+
+    body {
+        background-color: #F2F4F4;
+    }
+
+    #background-greyish {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 100%;
+        background-color: #CCD1D1;
+        z-index: -2;
+    }   
+
+    main {
+        background-color: white;
+        width: 85%;
+        height: 85%;
+        position: fixed;
+        top: 7.5%;
+        left: 7.5%;
+        margin: 0;
+        z-index: -1;
+    }
+
+    main img {
+        width: 50%;
+        float: left;
+    }
+
+    #placeholder-img {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+   
+
+    .hi {
+        display: none;
+    }
+
+    .about-title {
+        display: block;
+        margin: 0;
+        padding-left: 40px;
+        font-size: 30px;
+        padding-top: 50px
+
+    }
+
+    main p {
+        position: absolute;
+        top: 20%;
+        left: 53%;
+        margin-right: 25px
+    }
+
+    .contact {
+        left: 45%
+    }
+    
+    footer {
+        background-color: #CCD1D1;
+        width: 50%;
+        left: 0%;
+    }
+}
+

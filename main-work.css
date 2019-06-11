@@ -1,0 +1,153 @@
+body {
+    background-color: #CCD1D1;
+}
+
+.work {
+    text-decoration-line: line-through;
+    font-style: italic;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    background-color: #F2F4F4;
+    width: 280px;
+    padding: 20px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.project-selected, .tech-used {
+    padding-left: 20px;
+    text-align: left;
+}
+
+i {
+    padding: 5px
+}
+
+
+@media screen and (min-width: 400px) {
+
+    .projects {
+        width: 300px;
+        transition: all ease-in-out 1s;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    .projects {
+        width: 330px;
+        transition: all ease-in-out 1s;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+
+    body {
+        background-color: #F2F4F4;
+    }
+
+    #background-greyish {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 100%;
+        background-color: #CCD1D1;
+        z-index: -2;
+    }
+
+    main {
+        background-color: white;
+        width: 85%;
+        height: 85%;
+        position: fixed;
+        top: 7.5%;
+        left: 7.5%;
+        margin: 0;
+        z-index: -1;
+    }
+
+    .projects {
+        width: 50%;
+        padding-left: 0;
+        height: 93.5%;
+    }
+
+    h1, h3 {
+        margin-left: 40px
+    }
+
+    .project-selected {
+        position: fixed;
+        left: 53%;
+        top: 10%;
+    }
+
+    .project-selected h3 {
+        font-size: 25px;
+        margin-left: 0;
+    }
+
+    .tech-used {
+        position: fixed;
+        left: 53%;
+        top: 70%;
+    }
+
+    .contact {
+        left: 45%
+    }
+    
+    footer {
+        background-color: #CCD1D1;
+        width: 50%;
+        left: 0%;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    h1 {
+        margin-top: 50px;
+        margin-left: 60px;
+        font-size: 50px
+    }
+
+    h3 {
+        margin-left: 60px;
+        font-size: 30px
+    }
+
+    .project-selected h3 {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    main {
+        width: 90%;
+        left: 5%
+    }
+
+}

@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EF5350;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #212121
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
+
+.work a {
+    color: #F2F4F4;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px
+}
+
+main {
+    margin-top: 200px;    
+}
+
+#line-separator {
+    width: 180px;
+    transform: rotate(90deg);
+    background-color: black;
+    border: solid 1px black;
+    margin-top: 130px;
+}
+
+footer {
+    background-color: #F2F4F4;
+    position: fixed;
+    left: 10%;
+    bottom: 0;
+    width: 80%;
+    height: 65px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px
+}
+
+@media screen and (min-width: 500px) {
+
+    h1 {
+        font-size: 40px;
+        transition: all ease-in-out 2s;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+
+    body {
+        background-color: #F2F4F4;
+    }
+
+    #background-red {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 100%;
+        background-color: #EF5350;
+        z-index: -1;
+    }
+
+    .work {
+        transform: rotate(270deg);
+        position: fixed;
+        left: 0;
+        top: 50%;    
+    }
+
+    .resume {
+        transform: rotate(90deg);
+        position: fixed;
+        right: -10px;
+        top: 50%; 
+    }
+
+    #line-separator {
+        display: none;
+    }
+
+    footer {
+        height: 30px;
+        background-color: #EF5350;
+        width: 30%;
+    }
+
+    .contact {
+        position: fixed;
+        left: 47.5%;
+    }
+
+    
+    h1 {
+        font-size: 50px;
+    }
+
+    span {
+        color: #F2F4F4
+    }
+}
+
+@media screen and (min-width: 650px) {
+
+    h1 {
+        font-size: 75px
+    }
+}

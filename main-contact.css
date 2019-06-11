@@ -1,0 +1,149 @@
+footer {
+    height: 250px;
+}
+
+.contact {
+    text-decoration-line: line-through;
+    font-style: italic;
+}
+
+.contact-info {
+    text-align: left;
+    padding-left: 20px
+}
+
+footer img {
+    width: 8%;
+    padding: 5px
+}
+
+#github-icon{
+    width: 9%;
+}
+
+.contact-info p {
+    font-size: 10px
+}
+
+#close-btn {
+    width: 15px;
+    background-color: black;
+    border: solid 1px black;
+    float: right;
+    margin-right: 15px;
+    margin-top: -10px
+}
+
+@media screen and (min-width: 650px) {
+
+    body {
+        background-color: #F2F4F4;
+    }
+
+    #background-red {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 100%;
+        background-color: #EF5350;
+        z-index: -1;
+    }
+
+    .work {
+        transform: rotate(270deg);
+        position: fixed;
+        left: 0;
+        top: 50%;    
+    }
+
+    .resume {
+        transform: rotate(90deg);
+        position: fixed;
+        right: -10px;
+        top: 50%; 
+    }
+
+
+    main h1 {
+        font-size: 50px
+    }
+
+    footer {
+        height: 120px;
+        background-color: white;
+        width: 80%;
+    }
+
+    .phone {
+        position: fixed;
+        bottom: 25px;
+        left: 12%;
+    }
+
+    .email {
+        position: fixed;
+        bottom: 25px;
+        left: 30%;
+    }
+
+    .contact-icons {
+        position: fixed;
+        bottom: 45px;
+        left: 70%;
+    }
+
+    footer img {
+        width: 13%;
+        padding: 5px
+    }
+
+    #github-icon{
+        width: 15%;
+    }
+
+    #close-btn {
+        width: 15px;
+        margin-top: 0
+    }
+
+}
+
+@media screen and (min-width: 850px) {
+
+    .phone {
+        left: 18%;
+    }
+
+    .email {
+        left: 38%;
+    }
+
+    #get-in-touch {
+        font-weight: 700;
+        font-size: 60px;
+        opacity: 0.07;
+        margin-top: 40px
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    #get-in-touch {
+        font-size: 70px;
+        margin-top: 30px;
+        margin-left: 20px
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    #get-in-touch {
+        font-size: 80px;
+        margin-top: 20px;
+        margin-left: 30px
+    }
+    
+}
