@@ -4,7 +4,7 @@ body {
 
 main {
     margin-top: 50px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .about {
@@ -22,6 +22,7 @@ h1 {
 
 .about-intro p {
     padding: 0 20px;
+    padding-bottom: 80px;
     text-align: justify;
     font-size: 14px;
     line-height: 25px;
@@ -41,28 +42,17 @@ img {
 
 }
 
-@media screen and (min-width: 450px) {
-
-    .about-intro h1 {
-        font-size: 35px;
-        transition: all ease-in-out 2s;
-    }
-}
-
-
 @media screen and (min-width: 500px) {
-
-    .about-intro h1 {
-        font-size: 35px;
-    }
 
     img {
         width: 65%;
+        transition: all ease-in-out 0.5s;
     }
 
     #placeholder-img {
         width: 350px;
         height: 350px;
+        transition: all ease-in-out 2s;
     }
    
 }
@@ -82,7 +72,7 @@ img {
         font-weight: bolder;
         width: 15px;
         background-color: black;
-        border: solid 1px black;
+        border: solid 0.5px black;
     }
 
     #background-greyish {
@@ -135,7 +125,7 @@ img {
         position: absolute;
         top: 20%;
         left: 53%;
-        margin-right: 25px
+        margin-right: 25px;
     }
 
     .contact {

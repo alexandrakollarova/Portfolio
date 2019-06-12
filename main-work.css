@@ -29,6 +29,10 @@ i {
     padding: 5px
 }
 
+.project-selected p {
+    font-size: 14px;
+}
+
 
 @media screen and (min-width: 400px) {
 
@@ -76,7 +80,7 @@ i {
         font-weight: bolder;
         width: 15px;
         background-color: black;
-        border: solid 1px black;
+        border: solid 0.5px black;
     }
 
     main {

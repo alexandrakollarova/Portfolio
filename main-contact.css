@@ -33,10 +33,17 @@ footer img {
 #close-btn {
     width: 15px;
     background-color: black;
-    border: solid 1px black;
+    border: solid 0.5px black;
     float: right;
     margin-right: 15px;
     margin-top: -10px
+}
+
+#copyright {
+    float: right;
+    margin-right: 15px;
+    padding-top: 20px;
+    color: #CCD1D1;
 }
 
 @media screen and (min-width: 650px) {
@@ -113,6 +120,22 @@ footer img {
         margin-top: 0
     }
 
+    #copyright {
+        display: none;
+    }
+
+    #copyright-desktop {
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        transform: rotate(270deg);
+        left: 5%;
+        color: #CCD1D1;
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (min-width: 850px) {
@@ -126,6 +149,7 @@ footer img {
     }
 
     #get-in-touch {
+        display: block;
         font-weight: 700;
         font-size: 60px;
         opacity: 0.07;
@@ -141,6 +165,10 @@ footer img {
         margin-top: 30px;
         margin-left: 20px
     }
+
+    #copyright-desktop {
+        left: 6%;
+    }
     
 }
 
@@ -150,6 +178,10 @@ footer img {
         font-size: 80px;
         margin-top: 20px;
         margin-left: 30px
+    }
+
+    #copyright-desktop {
+        left: 7%;
     }
     
 }
