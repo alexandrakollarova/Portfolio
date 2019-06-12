@@ -2,6 +2,11 @@ footer {
     height: 250px;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .contact {
     text-decoration-line: line-through;
     font-style: italic;
