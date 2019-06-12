@@ -68,6 +68,17 @@ i {
         z-index: -2;
     }
 
+    #close-btn {
+        display: block;
+        position: fixed;
+        right: 10%;
+        top: 10%;      
+        font-weight: bolder;
+        width: 15px;
+        background-color: black;
+        border: solid 1px black;
+    }
+
     main {
         background-color: white;
         width: 85%;

@@ -74,6 +74,17 @@ img {
         background-color: #F2F4F4;
     }
 
+    #close-btn {
+        display: block;
+        position: fixed;
+        right: 10%;
+        top: 10%;     
+        font-weight: bolder;
+        width: 15px;
+        background-color: black;
+        border: solid 1px black;
+    }
+
     #background-greyish {
         position: fixed;
         top: 0px;
@@ -135,6 +146,14 @@ img {
         background-color: #CCD1D1;
         width: 50%;
         left: 0%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    main {
+        width: 90%;
+        left: 5%
     }
 }
 
