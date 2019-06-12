@@ -79,7 +79,8 @@ footer img {
 
 
     main h1 {
-        font-size: 50px
+        font-size: 50px;
+        transition: all ease-in-out 2s;
     }
 
     footer {

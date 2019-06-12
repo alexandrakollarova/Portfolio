@@ -165,4 +165,8 @@ i {
         left: 5%
     }
 
+    #close-btn {
+        right: 7%;
+    }
+
 }

@@ -23,7 +23,7 @@ h1 {
 .about-intro p {
     padding: 0 20px;
     padding-bottom: 80px;
-    text-align: justify;
+    text-align: left;
     font-size: 14px;
     line-height: 25px;
     float: left
@@ -58,7 +58,7 @@ img {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
 
     body {
         background-color: #F2F4F4;
@@ -126,10 +126,12 @@ img {
         top: 20%;
         left: 53%;
         margin-right: 25px;
+  
     }
 
     .contact {
-        left: 45%
+        position: absolute;
+        left: 90%
     }
     
     footer {
@@ -144,6 +146,10 @@ img {
     main {
         width: 90%;
         left: 5%
+    }
+
+    #close-btn {
+        right: 7%;
     }
 }
 

@@ -105,12 +105,15 @@ footer {
         height: 30px;
         /* background-color: #EF5350; */
         background-color: #85929E;
-        width: 30%;
+        width: 100%;
+        left: 0
     }
 
     .contact {
-        position: fixed;
-        left: 47.5%;
+        /* position: fixed;
+        left: 47.5%; */
+        left: 50%;
+        position: absolute;
     }
 
     
