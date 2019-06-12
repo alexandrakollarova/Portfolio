@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     /* background-color: #EF5350; */
+    background-color: #85929E;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #212121
@@ -78,6 +79,7 @@ footer {
         width: 50%;
         height: 100%;
         /* background-color: #EF5350; */
+        background-color: #85929E;
         z-index: -1;
     }
 
@@ -102,6 +104,7 @@ footer {
     footer {
         height: 30px;
         /* background-color: #EF5350; */
+        background-color: #85929E;
         width: 30%;
     }
 
