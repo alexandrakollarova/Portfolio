@@ -12,12 +12,12 @@ main {
     font-style: italic;
 }
 
-
 h1 {
     text-align: left;
     margin-left: 20px;
     float: left;
-    margin-top: -60px
+    margin-top: -60px;
+    font-size: 30px
 }
 
 .about-intro p {
@@ -26,7 +26,8 @@ h1 {
     text-align: left;
     font-size: 14px;
     line-height: 25px;
-    float: left
+    float: left;
+    font-family: 'Raleway', sans-serif
 }
 
 img {
@@ -34,13 +35,7 @@ img {
     float: right;
 }
 
-#placeholder-img {
-    width: 300px;
-    height: 300px;
-    float: right;
-    background-color: grey;
 
-}
 
 @media screen and (min-width: 500px) {
 
@@ -48,13 +43,7 @@ img {
         width: 65%;
         transition: all ease-in-out 0.5s;
     }
-
-    #placeholder-img {
-        width: 350px;
-        height: 350px;
-        transition: all ease-in-out 2s;
-    }
-   
+  
 }
 
 
@@ -67,12 +56,10 @@ img {
     #close-btn {
         display: block;
         position: fixed;
-        right: 10%;
-        top: 10%;     
-        font-weight: bolder;
+        right: 8%;
+        top: 12%;      
         width: 15px;
-        background-color: black;
-        border: solid 0.5px black;
+        padding: 5px;
     }
 
     #background-greyish {
@@ -87,11 +74,11 @@ img {
 
     main {
         background-color: white;
-        width: 85%;
-        height: 85%;
+        width: 90%;
+        height: 80%;
         position: fixed;
-        top: 7.5%;
-        left: 7.5%;
+        top: 10%;
+        left: 5%;
         margin: 0;
         z-index: -1;
     }
@@ -100,13 +87,6 @@ img {
         width: 50%;
         float: left;
     }
-
-    #placeholder-img {
-        float: left;
-        width: 50%;
-        height: 100%;
-    }
-   
 
     .hi {
         display: none;
@@ -121,35 +101,76 @@ img {
 
     }
 
-    main p {
+    .about-intro p {
         position: absolute;
         top: 20%;
+        height: 400px;
         left: 53%;
         margin-right: 25px;
-  
+        overflow-y: scroll;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 50px;        
     }
 
-    .contact {
-        position: absolute;
-        left: 90%
+    ::-webkit-scrollbar {
+        width: 8px;
     }
     
+    ::-webkit-scrollbar-track {
+        background: whitesmoke; 
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: whitesmoke
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #CCD1D1; 
+    }
+        
+    
     footer {
-        background-color: #CCD1D1;
-        width: 50%;
-        left: 0%;
+        background-color: transparent;
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 700px) {
 
-    main {
-        width: 90%;
-        left: 5%
+    ::-webkit-scrollbar-track {
+        display: none; 
     }
+    
+    ::-webkit-scrollbar-thumb {
+        display: none
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
 
     #close-btn {
         right: 7%;
+    }
+}
+
+@media screen and (min-width: 1284px) {
+
+    main img {
+        max-height: 580px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    main {
+        width: 80%;
+        left: 10%
+    }
+
+    #close-btn {
+        right: 11%;
     }
 }
 

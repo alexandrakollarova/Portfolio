@@ -31,6 +31,7 @@ i {
 
 .project-selected p {
     font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -75,21 +76,19 @@ i {
     #close-btn {
         display: block;
         position: fixed;
-        right: 10%;
-        top: 10%;      
-        font-weight: bolder;
+        right: 8%;
+        top: 12%;      
         width: 15px;
-        background-color: black;
-        border: solid 0.5px black;
+        padding: 5px;
     }
 
     main {
         background-color: white;
-        width: 85%;
-        height: 85%;
+        width: 90%;
+        height: 80%;
         position: fixed;
-        top: 7.5%;
-        left: 7.5%;
+        top: 10%;
+        left: 5%;
         margin: 0;
         z-index: -1;
     }
@@ -98,6 +97,7 @@ i {
         width: 50%;
         padding-left: 0;
         height: 93.5%;
+        
     }
 
     h1, h3 {
@@ -107,7 +107,7 @@ i {
     .project-selected {
         position: fixed;
         left: 53%;
-        top: 10%;
+        top: 13%;
     }
 
     .project-selected h3 {
@@ -121,14 +121,10 @@ i {
         top: 70%;
     }
 
-    .contact {
-        left: 45%
-    }
-    
+  
     footer {
-        background-color: #CCD1D1;
-        width: 50%;
-        left: 0%;
+        background-color: transparent;
+        width: 100%;
     }
 
     img {
@@ -156,17 +152,24 @@ i {
         font-size: 30px;
     }
 
+    #close-btn {
+        right: 7%;
+
+    }
+
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
 
     main {
-        width: 90%;
-        left: 5%
+        width: 80%;
+        left: 10%
     }
 
     #close-btn {
-        right: 7%;
+        right: 11%;
     }
 
 }
+
+

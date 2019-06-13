@@ -2,9 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #EF5350; */
-    background-color: #85929E;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #EF5350;
+    font-family: 'Montserrat', sans-serif;    
     text-align: center;
     color: #212121
 }
@@ -34,6 +33,7 @@ ul {
 
 main {
     margin-top: 200px;
+
 }
 
 #line-separator {
@@ -78,8 +78,7 @@ footer {
         left: 0px;
         width: 50%;
         height: 100%;
-        /* background-color: #EF5350; */
-        background-color: #85929E;
+        background-color: #EF5350;
         z-index: -1;
     }
 
@@ -103,19 +102,10 @@ footer {
 
     footer {
         height: 30px;
-        /* background-color: #EF5350; */
-        background-color: #85929E;
+        background-color: transparent;
         width: 100%;
         left: 0
     }
-
-    .contact {
-        /* position: fixed;
-        left: 47.5%; */
-        left: 50%;
-        position: absolute;
-    }
-
     
     h1 {
         font-size: 50px;

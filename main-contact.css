@@ -32,8 +32,7 @@ footer img {
 
 #close-btn {
     width: 15px;
-    background-color: black;
-    border: solid 0.5px black;
+    padding: 5px;
     float: right;
     margin-right: 15px;
     margin-top: -10px
@@ -58,8 +57,7 @@ footer img {
         left: 0px;
         width: 50%;
         height: 100%;
-        /* background-color: #EF5350; */
-        background-color: #85929E;
+        background-color: #EF5350;
         z-index: -1;
     }
 
@@ -87,6 +85,7 @@ footer img {
         height: 120px;
         background-color: white;
         width: 80%;
+        left: 10%;
     }
 
     .phone {
@@ -117,8 +116,7 @@ footer img {
     }
 
     #close-btn {
-        width: 15px;
-        margin-top: 0
+        margin-top: -20px
     }
 
     #copyright {
