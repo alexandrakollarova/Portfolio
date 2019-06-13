@@ -148,6 +148,7 @@ img {
 
 }
 
+
 @media screen and (min-width: 1000px) {
 
     #close-btn {
@@ -155,10 +156,10 @@ img {
     }
 }
 
-@media screen and (min-width: 1284px) {
+@media screen and (min-width: 1295px) {
 
     main img {
-        max-height: 580px;
+        max-height: 578px;
     }
 }
 

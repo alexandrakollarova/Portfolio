@@ -14,11 +14,22 @@ a {
     color: black
 }
 
+button {
+    border: none;
+    cursor: pointer;
+    color: #212121;
+    font-family: inherit;
+    background-color: inherit;
+}
+
 .work a {
     color: #F2F4F4;
 }
 
-
+.about-intro span {
+    display: block;
+    padding-top: 15px
+}
 
 ul {
     list-style: none;
@@ -111,7 +122,7 @@ footer {
         font-size: 50px;
     }
 
-    span {
+    li span {
         color: #F2F4F4
     }
 }

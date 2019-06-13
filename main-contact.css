@@ -18,13 +18,11 @@ a {
 }
 
 footer img {
-    width: 8%;
-    padding: 5px
+    width: 30px;
+    padding: 5px;
+    margin-top: 15px
 }
 
-#github-icon{
-    width: 9%;
-}
 
 .contact-info p {
     font-size: 10px
@@ -106,15 +104,6 @@ footer img {
         left: 70%;
     }
 
-    footer img {
-        width: 13%;
-        padding: 5px
-    }
-
-    #github-icon{
-        width: 15%;
-    }
-
     #close-btn {
         margin-top: -20px
     }
@@ -167,6 +156,14 @@ footer img {
 
     #copyright-desktop {
         left: 6%;
+    }
+
+    .phone p, .email p {
+        font-size: 12px
+    }
+
+    footer img {
+        padding: 10px;
     }
     
 }
