@@ -1,23 +1,9 @@
-footer {
-    height: 250px;
-}
-
-a {
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.contact {
-    text-decoration-line: line-through;
-    font-style: italic;
-}
-
 .contact-info {
     text-align: left;
     padding-left: 20px
 }
 
-footer img {
+.contact-icons img {
     width: 30px;
     padding: 5px;
     margin-top: 15px
@@ -33,51 +19,16 @@ footer img {
     padding: 5px;
     float: right;
     margin-right: 15px;
-    margin-top: -10px
+    margin-top: -10px;
 }
 
 #copyright {
     float: right;
     margin-right: 15px;
-    padding-top: 20px;
     color: #CCD1D1;
 }
 
 @media screen and (min-width: 650px) {
-
-    body {
-        background-color: #F2F4F4;
-    }
-
-    #background-red {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 50%;
-        height: 100%;
-        background-color: #EF5350;
-        z-index: -1;
-    }
-
-    .work {
-        transform: rotate(270deg);
-        position: fixed;
-        left: 0;
-        top: 50%;    
-    }
-
-    .resume {
-        transform: rotate(90deg);
-        position: fixed;
-        right: -10px;
-        top: 50%; 
-    }
-
-
-    main h1 {
-        font-size: 50px;
-        transition: all ease-in-out 2s;
-    }
 
     footer {
         height: 120px;

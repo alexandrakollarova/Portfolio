@@ -22,7 +22,7 @@ button {
     background-color: inherit;
 }
 
-.work a {
+.work button {
     color: #F2F4F4;
 }
 
@@ -42,7 +42,7 @@ ul {
     letter-spacing: 2px
 }
 
-main {
+.headline {
     margin-top: 200px;
 
 }
@@ -55,7 +55,7 @@ main {
     margin-top: 130px;
 }
 
-footer {
+.footer-home, .footer-content {
     background-color: #F2F4F4;
     position: fixed;
     left: 10%;
@@ -68,9 +68,10 @@ footer {
     letter-spacing: 2px
 }
 
+
 @media screen and (min-width: 500px) {
 
-    h1 {
+    .headline {
         font-size: 40px;
         transition: all ease-in-out 2s;
     }
@@ -93,6 +94,13 @@ footer {
         z-index: -1;
     }
 
+    .headline {
+        margin-top: 150px;
+        font-size: 50px;
+        transition: all ease-in-out 2s;
+    
+    }
+
     .work {
         transform: rotate(270deg);
         position: fixed;
@@ -111,25 +119,25 @@ footer {
         display: none;
     }
 
-    footer {
+    .footer-home {
         height: 30px;
         background-color: transparent;
         width: 100%;
         left: 0
     }
     
-    h1 {
+    .headline {
         font-size: 50px;
     }
 
-    li span {
+    li span, .contact span {
         color: #F2F4F4
     }
 }
 
 @media screen and (min-width: 1000px) {
 
-    h1 {
+    .headline {
         font-size: 75px
     }
 }

@@ -1,17 +1,3 @@
-body {
-    background-color: #CCD1D1;
-}
-
-.work {
-    text-decoration-line: line-through;
-    font-style: italic;
-}
-
-main {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .projects {
     background-color: #F2F4F4;
     width: 280px;
@@ -93,7 +79,7 @@ i {
     }
 
     main {
-        background-color: white;
+        /* background-color: white; */
         width: 90%;
         height: 80%;
         position: fixed;
