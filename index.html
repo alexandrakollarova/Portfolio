@@ -7,46 +7,207 @@
     <title>Alexandra Kollarova</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat:400,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="main-contact.css" rel="stylesheet"/>
-    <link href="main-work.css" rel="stylesheet"/>
-    <link href="main-about.css" rel="stylesheet"/>
     <link href="main.css" rel="stylesheet"/>
     
 </head>
 
 <body>
 
-    <div id="background-red"></div>
-
-    <header role="navigation" id="nav">
-        <ul>
-            <li class="work">
-                <button id="js-work-btn">WORK</button>
-            </li>
-            <li class="about">
-                <button id="js-about-btn"><span>AB</span>OUT</button>
-            </li>
-            <li class="resume">
-                <a href="resume.pdf">RESUME</a>
-            </li>
-        </ul>
-    </header>
+    <div id="background-red"></div>    
 
     <main role="main-content" id="container">
+
+        <section class="main-home">
+
+            <header role="navigation" id="nav">
+                <ul>
+                    <li class="work">
+                        <button id="js-work-btn">WORK</button>
+                    </li>
+                    <li class="about">
+                        <button id="js-about-btn"><span>AB</span>OUT</button>
+                    </li>
+                    <li class="resume">
+                        <a href="resume.pdf">RESUME</a>
+                    </li>
+                </ul>
+            </header>         
+        
+            <h1 class="headline">
+                Hi. I'm Alexandra.
+                <br>A Web Developer
+                <br>living in Boston.
+            </h1>
+        </section>        
+
+        <section class="about-content" hidden>
+
+            <div id="background-greyish"></div>
+            <div id="background-whitish"></div>
+            <div id="background-white"></div>
+            <div id="background-red-half"></div>
+
+
+            <header role="navigation" id="nav">
+                <ul>
+                    <li class="work">
+                        <button id="js-work-btn">WORK</button>
+                    </li>
+                    <li class="about">
+                        <button id="js-about-btn"><span>AB</span>OUT</button>
+                    </li>
+                    <li class="resume">
+                        <a href="resume.pdf">RESUME</a>
+                    </li>
+                </ul>
+            </header>  
+
+            <img id="poly-unicorn" src="images/poly-unicorn.jpg"/>
+  
+            <button>
+                <img id="about-close-btn" src="icons/dash.png">
+            </button>
+    
+            <section class="about-intro">
+                            
+                <h1 class="hi">Hi.<br>
+                I'm Alexandra.</h1>
+                <h1 class="about-title" hidden>About</h1>
             
-        <h1 class="headline">
-            Hi. I'm Alexandra.
-            <br>A Web Developer
-            <br>living in Boston.
-        </h1>
+                <p>I'm a web developer, recent graduate of the Full Stack Web Development boot camp at Bloc and
+                    current graduate student working towards my Master's Degree in Web Development and Interactive Design Usability. 
+                    <span>I love problem-solving and learning cool JavaScript libraries and frameworks. 
+                    Some of my interests include coding, reading tech news, music, strength training, and cooking.
+                    Feel free to contact me and browse some of my projects using the links below.</span>
+                </p>        
+            </section>
+        </section> 
+        
+        <section class="work-content" hidden>
+
+            <div id="background-greyish"></div>
+            <div id="background-whitish"></div>
+            <div id="background-white"></div>
+
+            <header role="navigation" id="nav">
+                <ul>
+                    <li class="work">
+                        <button id="js-work-btn">WORK</button>
+                    </li>
+                    <li class="about">
+                        <button id="js-about-btn"><span>AB</span>OUT</button>
+                    </li>
+                    <li class="resume">
+                        <a href="resume.pdf">RESUME</a>
+                    </li>
+                </ul>
+            </header>  
+
+            <button>
+                <img id="work-close-btn" src="icons/dash.png">
+            </button>
+        
+            <section class="projects">         
+                <h1>Projects</h1>
+        
+                <button class="project">
+                    <h3>CSS Quiz</h3>
+                </button>
+                <button class="project">
+                    <h3>Room Planner</h3>
+                </button>
+                <button class="project">
+                    <h3>Project 3</h3>
+                </button>
+                <button class="project">
+                    <h3 class="project4">Project 4</h3>
+                </button>
+            </section>
+        
+            <section class="project-selected">
+        
+                <h3>CSS Quiz</h3>
+        
+                <img src="images/css-quiz-img1.jpg" alt="css-quiz-interface" id="project-img">
+        
+                <p>This app allows you to test your CSS skills.</p>
+        
+                <section class="live-repo">
+                    <h4>LIVE:</h4>
+        
+                    <a href="https://alexandrakollarova.github.io/CSS-Quiz/">CSS Quiz</a>            
+                                
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                    <h4>CODE:</h4>
+                                
+                    <a href="https://github.com/alexandrakollarova/CSS-Quiz">GitHub</a>           
+                            
+                </section>
+        
+                <section class="tech-used">
+        
+                    <h4>Tech Used</h4>
+        
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-jquery-plain"></i>                    
+                        
+                </section>    
+            </section>
+        </section>
            
     </main>
 
     <hr id="line-separator">
 
     <footer role="contact-info">
+
         <section class="footer-home">
             <button id="js-contact-btn" class="contact"><span>CON</span>TACT</button>
+        </section>
+
+        <section class="footer-content" hidden>
+            <div id="contact-btn" class="contact">CONTACT</div>
+            
+            <p id="copyright-desktop" hidden>&copy; 2019</p>
+    
+            <button>
+                <img id="contact-close-btn" src="icons/dash.png">
+            </button>
+    
+            <section class="contact-info">
+    
+                <div class="phone">
+                    <h5>PHONE</h5>
+                    <p>781 609 8428</p>
+                </div>
+    
+                <p id="get-in-touch" hidden>Get in touch</p>
+                
+                <div class="email">
+                    <h5>EMAIL</h5>
+                    <p>
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=alexandrakollarova91@gmail.com&su=Subject&body=Hi%20Alexandra,&tf=1" class="linkGmail">ALEXANDRAKOLLAROVA@GMAIL.COM</a>
+                    </p>
+                </div>
+                
+                <div class="contact-icons">
+                    <a href="https://www.github.com/alexandrakollarova">
+                        <img src="icons/github.png" alt="github-pages" id="gh-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexandrakollarova">
+                        <img src="icons/li.png" alt="linkedin-profile" id="li-icon">
+                    </a>
+                    <a href="https://www.facebook.com/alexandra.kollarova.90">
+                        <img src="icons/fb.png" alt="facebook=profile" id="fb-icon">
+                    </a>                       
+                </div>
+    
+                <p id="copyright">&copy; 2019</p>       
+                
+            </section>
         </section>
     </footer>
 
