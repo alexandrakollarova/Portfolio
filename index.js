@@ -2,7 +2,7 @@
 
 function handleAboutBtn() {    
 
-    $('#js-about-btn').on('click', function() {
+    $('.js-about-btn').on('click', function() {
         
         $(".main-home").hide();
         $(".work-content").hide();
@@ -37,7 +37,7 @@ function handleAboutBtn() {
 
 function handleWorkBtn() {   
 
-    $('#js-work-btn').on('click', function() {        
+    $('.js-work-btn').on('click', function() {        
 
         $(".main-home").hide();        
         $(".work-content").show();
