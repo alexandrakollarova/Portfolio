@@ -3,7 +3,8 @@
 
 <head>    
     <meta charset="UTF9">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- <link rel='favicon' href='icons/infinity.jpg' type='image/infinity'/> -->
     <title>Alexandra Kollarova</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat:400,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -13,7 +14,8 @@
 
 <body>
 
-    <div id="background-red"></div>    
+    <div id="background-red"></div>
+    <div id="background-whitish" hidden></div>    
 
     <main role="main-content" id="container">
 
@@ -88,6 +90,7 @@
             <div id="background-greyish"></div>
             <div id="background-whitish"></div>
             <div id="background-white"></div>
+            <div id="background-lightgrey-half"></div>
 
             <header role="navigation" id="nav">
                 <ul>
@@ -103,17 +106,17 @@
                 </ul>
             </header>  
 
-            <button>
+            <button class="button">
                 <img id="work-close-btn" src="icons/dash.png">
             </button>
         
             <section class="projects">         
                 <h1>Projects</h1>
         
-                <button class="project">
+                <button class="project" id="css-quiz-project">
                     <h3>CSS Quiz</h3>
                 </button>
-                <button class="project">
+                <button class="project" id="room-planner-project">
                     <h3>Room Planner</h3>
                 </button>
                 <button class="project">
@@ -124,38 +127,77 @@
                 </button>
             </section>
         
-            <section class="project-selected">
+            <section class="project-selected" id="css-quiz-selected">                
         
                 <h3>CSS Quiz</h3>
-        
-                <img src="images/css-quiz-img1.jpg" alt="css-quiz-interface" id="project-img">
-        
-                <p>This app allows you to test your CSS skills.</p>
-        
-                <section class="live-repo">
-                    <h4>LIVE:</h4>
-        
-                    <a href="https://alexandrakollarova.github.io/CSS-Quiz/">CSS Quiz</a>            
+
+                <div class="project-selected-content">
+            
+                    <img src="images/css-quiz-img1.jpg" alt="css-quiz-interface" id="css-quiz-img">
+            
+                    <p>This app allows you to test your CSS skills.</p>
+            
+                    <section class="live-repo">
+                        <h4>LIVE:</h4>
+            
+                        <a href="https://alexandrakollarova.github.io/CSS-Quiz/">CSS Quiz</a>            
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                    
+                        <h4>CODE:</h4>
+                                    
+                        <a href="https://github.com/alexandrakollarova/CSS-Quiz">GitHub</a>           
                                 
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                                
-                    <h4>CODE:</h4>
-                                
-                    <a href="https://github.com/alexandrakollarova/CSS-Quiz">GitHub</a>           
-                            
-                </section>
-        
-                <section class="tech-used">
-        
-                    <h4>Tech Used</h4>
-        
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-jquery-plain"></i>                    
-                        
-                </section>    
+                    </section>
+            
+                    <section class="tech-used">
+            
+                        <h4>Tech Used</h4>
+            
+                        <i class="devicon-html5-plain"></i>
+                        <i class="devicon-css3-plain"></i>
+                        <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-jquery-plain"></i>
+                    </section>                     
+                </div> 
+                  
             </section>
+
+            <section class="project-selected" id="room-planner-selected" hidden>                
+        
+                <h3>Room Planner</h3>
+
+                <div class="project-selected-content">
+            
+                    <img src="images/room-planner-img1.png" alt="room-planner-interface" id="room-planner-img">
+            
+                    <p>This app allows you to organize your room in just seconds.</p>
+            
+                    <section class="live-repo">
+                        <h4>LIVE:</h4>
+            
+                        <a href="https://alexandrakollarova.github.io/Room-Planner/">CSS Quiz</a>            
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                    
+                        <h4>CODE:</h4>
+                                    
+                        <a href="https://github.com/alexandrakollarova/Room-Planner">GitHub</a>           
+                                
+                    </section>
+            
+                    <section class="tech-used">
+            
+                        <h4>Tech Used</h4>
+            
+                        <i class="devicon-html5-plain"></i>
+                        <i class="devicon-css3-plain"></i>
+                        <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-jquery-plain"></i>                    
+                            
+                    </section>    
+                </section>
+            </div>
         </section>
            
     </main>
@@ -189,7 +231,7 @@
                 <div class="email">
                     <h5>EMAIL</h5>
                     <p>
-                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=alexandrakollarova91@gmail.com&su=Subject&body=Hi%20Alexandra,&tf=1" class="linkGmail">ALEXANDRAKOLLAROVA@GMAIL.COM</a>
+                        <a href="mailto:alexandrakollarova91@gmail.com" class="linkGmail">ALEXANDRAKOLLAROVA@GMAIL.COM</a>
                     </p>
                 </div>
                 

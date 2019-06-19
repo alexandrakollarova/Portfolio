@@ -61,10 +61,6 @@ ul {
 
 /* ABOUT */
 
-main {
-    margin-bottom: 50px;
-}
-
 header {
     margin-bottom: 50px
 }
@@ -73,12 +69,13 @@ header {
     text-align: left;
     margin-left: 20px;
     float: left;
-    margin-top: -60px;
-    font-size: 30px
+    margin-top: -57px;
+    font-size: 30px;
+    margin-bottom: 0
 }
 
 .about-intro p {
-    padding: 0 20px;
+    padding: 0 30px;
     padding-bottom: 80px;
     text-align: left;
     font-size: 14px;
@@ -95,13 +92,12 @@ header {
 .about-content button {
     position: absolute;
     right: 0;
-    top: 6%;
+    top: 5%;
 } 
 
 #about-close-btn {
     width: 15px;
-    padding: 5px;
-    margin-right: 15px;
+    padding: 10px;
 }
 
 /* WORK */
@@ -109,30 +105,59 @@ header {
 .projects {
     background-color: #F2F4F4;
     width: 280px;
+    height: 260px;
     padding: 20px 0;
     padding-left: 20px;
     text-align: left;
 }
 
+.projects h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.projects h3 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 0
+}
+
 .project-selected {
+    padding-top: 20px;
     padding-left: 20px;
     text-align: left;
+}
+
+#css-quiz-img {
+    width: 90%;
+}
+
+#room-planner-img {
+    width: 50%;
+}
+
+.live-repo h4, .tech-used h4 {
+    margin-bottom: 8px
 }
 
 .tech-used {
     padding-bottom: 50px
 }
 
+.work-content .button {
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
 #work-close-btn {
     width: 15px;
-    padding: 5px;
-    position: fixed;
-    right: 6%;
-    top: 6%;
+    padding: 10px;
 }
 
 i {
-    padding: 5px
+    padding-top: 5px;
+    padding-right: 5px
 }
 
 .project-selected p {
@@ -140,11 +165,6 @@ i {
     font-family: 'Raleway', sans-serif;
 }
 
-#project-img {
-    width: 90%;
-    padding-left: 0;
-  
-}
 
 /* FOOTER */
 
@@ -172,8 +192,18 @@ i {
     margin-top: 15px
 }
 
+.phone h5, .email h5 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.phone, .email{
+    padding-top: 10px
+}
+
 .contact-info p {
-    font-size: 10px
+    font-size: 10px;
 }
 
 footer .footer-content {
@@ -187,8 +217,9 @@ footer .footer-content {
 
 #contact-close-btn {
     width: 15px;
-    padding: 5px;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-top: -5px;
+    padding: 10px;
 }
 
 #copyright {
@@ -204,9 +235,13 @@ footer .footer-content {
 
     .projects {
         width: 300px;
-        transition: all ease-in-out 1s;
-    }   
+        transition: all ease-in-out 2s;
+    } 
 
+    i {
+        font-size: 20px;
+        transition: all ease-in-out 2s;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -218,24 +253,32 @@ footer .footer-content {
         transition: all ease-in-out 2s;
     }
 
-    /* ABOUT */
-
-    img {
-        width: 65%;
-        transition: all ease-in-out 0.5s;
-    }
-
     /* WORK */
 
     .projects {
-        width: 330px;
-        transition: all ease-in-out 1s;
+        width: 320px;
+        transition: all ease-in-out 2s;
+    } 
+
+    /* ABOUT */
+
+    .about-intro .hi {
+        margin: 0 30px;
+        font-size: 40px;
+        transition: all ease-in-out 2s;
     }
 
-    h1 {
-        font-size: 30px;
+    .about-intro p {
+        padding: 0 40px;
+        padding-bottom: 100px;
+        transition: all ease-in-out 2s;
     }
 
+    #poly-unicorn {
+        width: 65%;
+        transition: all ease-in-out 2s;
+    }
+    
 }
 
 @media screen and (min-width: 650px) {
@@ -244,6 +287,15 @@ footer .footer-content {
 
     body {
         background-color: #F2F4F4;
+    }
+
+    main {
+        width: 90%;
+        height: 80%;
+        position: fixed;
+        left: 5%;
+        margin: 0;
+        z-index: -1;
     }
 
     #background-red {
@@ -266,14 +318,14 @@ footer .footer-content {
     .work {
         transform: rotate(270deg);
         position: fixed;
-        left: -10px;
+        left: -12px;
         top: 50%;    
     }
 
     .resume {
         transform: rotate(90deg);
         position: fixed;
-        right: -10px;
+        right: -12px;
         top: 50%; 
     }
 
@@ -339,15 +391,8 @@ footer .footer-content {
         z-index: 0;
     }
 
-    main {
-        top: 0;        
-    }
-
     #poly-unicorn {
-        /* width: 50%;
-        float: left; */
         display: none;
-
     }
 
     .hi {
@@ -393,66 +438,53 @@ footer .footer-content {
     }
 
     /* WORK */
-        
-    #close-btn {
-        display: block;
+
+    #work-close-btn {
         position: fixed;
-        right: 8%;
-        top: 12%;      
-        width: 15px;
-        padding: 5px;
+        right: 6%;
+        top: 6%;
     }
 
-    main {
-        /* background-color: white; */
-        width: 90%;
-        height: 80%;
+    /* .work-content header {
+        margin-bottom: 0;
+    } */
+
+    #background-lightgrey-half {
+        background-color: #F2F4F4;
         position: fixed;
-        top: 10%;
+        top: 5%;
         left: 5%;
-        margin: 0;
+        width: 45%;
+        height: 90%;
         z-index: -1;
     }
-
+  
     .projects {
-        width: 50%;
-        padding-left: 0;
-        height: 93%;
-        
-    }
-
-    h1, h3 {
-        margin-left: 40px
+        background-color: transparent;
+        position: absolute;
+        top: 11%;
+        left: 2%;
+        margin: 0
     }
 
     .project-selected {
-        position: fixed;
-        left: 53%;
-        top: 13%;
+        position: absolute;
+        left: 55%;
+        top: 15%;
         padding: 0;
-        overflow-y: scroll;
-        
     }
 
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
     
-    ::-webkit-scrollbar-track {
-        background: whitesmoke; 
+    .project-selected-content {
+        margin-right: 15px;        
+        overflow-y: scroll; 
+        height: 390px;
     }
-    
-    ::-webkit-scrollbar-thumb {
-        background: whitesmoke
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-        background: #CCD1D1; 
-    }
+
+   
 
     .project-selected h3 {
-        font-size: 25px;
-        margin-left: 0;
+        font-size: 28px;
     }
 
     .live-repo h4  {
@@ -468,26 +500,15 @@ footer .footer-content {
     }
 
     .tech-used {
-        padding-top: 30px
+        padding-top: 20px
     }
 
-  
-    footer {
-        background-color: transparent;
-        width: 100%;
-    }
-
-    #project-img {
-        width: 80%;
+    #css-quiz-img {
+        width: 83%;
     }
 
     /* FOOTER */
 
-    footer {
-        background-color: transparent;
-        width: 100%;
-    }
-       
     .footer-home {
         height: 30px;
         background-color: transparent;
@@ -505,23 +526,27 @@ footer .footer-content {
     .phone {
         position: fixed;
         bottom: 25px;
-        left: 12%;
+        left: 15%;
     }
 
     .email {
         position: fixed;
         bottom: 25px;
-        left: 30%;
+        left: 33%;
     }
 
     .contact-icons {
         position: fixed;
-        bottom: 45px;
-        left: 70%;
+        bottom: 40px;
+        left: 71%;
+    }
+
+    .contact-icons img {
+        width: 25px;
     }
 
     #contact-close-btn {
-        margin-top: -20px
+        margin-top: -10px
     }
 
     #copyright {
@@ -531,7 +556,7 @@ footer .footer-content {
     #copyright-desktop {
         display: block;
         position: absolute;
-        bottom: 20px;
+        /* bottom: 20px; */
         transform: rotate(270deg);
         left: -40px;
         color: #CCD1D1;
@@ -541,19 +566,37 @@ footer .footer-content {
     }
 }
 
-@media screen and (min-width: 700px) {
 
-    ::-webkit-scrollbar-track {
-        display: none; 
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        display: none
-    }
-
-}
 
 @media screen and (min-width: 850px) {
+
+    /* ABOUT */
+
+    .about-intro p {
+        overflow-y: auto;
+    }
+
+
+    /* WORK */
+
+    .projects h1 {
+        font-size: 40px;
+        transition: all ease-in-out 2s;
+    }
+
+    .projects h3 {
+        font-size: 28px;
+        transition: all ease-in-out 2s;
+    }
+
+    .project-selected {
+        top: 18%;
+        transition: all ease-in-out 2s;
+    }
+
+    .project-selected-content {
+        overflow-y: auto;
+    }
 
      /* FOOTER */
 
@@ -563,6 +606,10 @@ footer .footer-content {
 
     .email {
         left: 38%;
+    }
+
+    .contact-icons img {
+        width: 30px;
     }
 
     #get-in-touch {
@@ -577,36 +624,50 @@ footer .footer-content {
 
 @media screen and (min-width: 1000px) {
 
+    /* HOME */
+
     .headline {
-        font-size: 75px;
+        font-size: 65px;
         margin-top: 200px
+    }
+
+    /* ABOUT */
+
+    .about-intro .about-title {
+        left: 54%;
+        font-size: 40px;
+        transition: all ease-in-out 2s;
+    }
+
+    .about-intro p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 30px;
+        transition: all ease-in-out 2s;
     }
 
     /* WORK */
 
-    #close-btn {
-        right: 7%;
-    }
 
-    h1 {
+    .projects h1 {
         margin-top: 50px;
-        margin-left: 60px;
-        font-size: 50px
+        font-size: 50px;
+        transition: all ease-in-out 2s;
     }
 
-    h3 {
-        margin-left: 60px;
-        font-size: 30px
+    .projects h3 {
+        margin-left: 20px;
+        font-size: 30px;
+        transition: all ease-in-out 2s;
     }
 
     .project-selected h3 {
-        margin-top: 70px;
         font-size: 30px;
+        transition: all ease-in-out 2s;
     }
 
-    #close-btn {
-        right: 7%;
-
+    .project-selected {
+        top: 21%
     }
 }
 
@@ -632,6 +693,62 @@ footer .footer-content {
 
 @media screen and (min-width: 1200px) {
 
+    /* HOME */
+
+    .headline {
+        font-size: 75px;
+        margin-top: 180px
+    }
+
+    /* ABOUT */
+
+    #background-white {
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+
+    #background-red-half {
+        top: 10%;
+        left: 10%;
+        width: 40%;
+        height: 80%;
+    }
+
+    #about-close-btn {
+        right: 11%;
+        top: 11%
+    }
+
+    .about-intro p {
+        padding-right: 80px;
+    }
+
+    /* WORK */
+
+    #work-close-btn {
+        right: 11%;
+        top: 11%
+    }
+
+    #background-lightgrey-half {
+        top: 10%;
+        left: 10%;
+        width: 40%;
+        height: 80%;
+    }
+
+    .projects {
+        left: 8%;
+        top: 15%;
+    }
+
+    #css-quiz-img {
+        width: 70%
+    }
+
      /* FOOTER */
 
     #get-in-touch {
@@ -640,14 +757,6 @@ footer .footer-content {
         margin-left: 30px
     }   
 }
-
-@media screen and (min-width: 1295px) {
-
-    main img {
-        max-height: 578px;
-    }
-}
-
 
 @media screen and (min-width: 1300px) {
 
@@ -658,6 +767,22 @@ footer .footer-content {
 
     #close-btn {
         right: 11%;
+    }
+
+    /* ABOUT */
+
+    #background-red-half {
+        display: none
+    }
+
+    #poly-unicorn {
+        transition: none;
+        display: block;
+        width: 40%;
+        max-height: 578px;
+        float: left;
+        position: fixed;
+        top: 10%
     }
 
     /* WORK */

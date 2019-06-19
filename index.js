@@ -26,10 +26,10 @@ function handleAboutBtn() {
             $(".footer-home").show();
     
             $("#line-separator").css("display", "none");
-            $("body").css("background-color", "#F2F4F4");
-            $("#background-red").css(
-                {"background-color": "#EF5350;"}
-            );
+            $("body").css("background-color", "#EF5350");
+            // $("#background-red").css("background-color", "#EF5350");
+            // $("#background-greyish").css("display", "none");
+            $("#background-whitish").css("display", "block");
         });      
      
     });
@@ -39,9 +39,10 @@ function handleWorkBtn() {
 
     $('.js-work-btn').on('click', function() {        
 
-        $(".main-home").hide();        
-        $(".work-content").show();
-        $(".footer-content").hide();
+        $(".main-home").hide();
+        $(".about-content").hide(); 
+        $(".footer-content").hide();       
+        $(".work-content").show();        
         $(".footer-home").show();
 
         $(".work").css(
@@ -54,10 +55,7 @@ function handleWorkBtn() {
             {"margin-bottom": "50px"}
         );
         $(".projects button").css("display", "block");
-        $("h3").css(
-            {"margin-bottom": "5px",
-            "margin-top": "10px"}
-            );       
+     
 
     });
 
@@ -67,10 +65,27 @@ function handleWorkBtn() {
         $(".footer-content").hide(); 
         $(".footer-home").show();
 
-        $("body").css("background-color", "#F2F4F4");
+        $("body").css("background-color", "#EF5350");
+        $("#line-separator").css("display", "none");
+        $("#background-whitish").css("display", "block");
 
-    });      
+    });
+    
+    viewProjects();
+}
 
+function viewProjects() {
+    $('#css-quiz-project').on('click', function() {
+             
+        $("#css-quiz-selected").show();
+        $("#room-planner-selected").hide();
+    }); 
+
+    $('#room-planner-project').on('click', function() {
+             
+        $("#room-planner-selected").show();
+        $("#css-quiz-selected").hide();
+    }); 
 }
 
 
