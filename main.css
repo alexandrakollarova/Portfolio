@@ -161,8 +161,10 @@ i {
 }
 
 .project-selected p {
+    padding-right: 20px;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif
 }
 
 
@@ -478,7 +480,7 @@ footer .footer-content {
     .project-selected-content {
         margin-right: 15px;        
         overflow-y: scroll; 
-        height: 390px;
+        height: 450px;
     }
 
    
@@ -669,6 +671,10 @@ footer .footer-content {
     .project-selected {
         top: 21%
     }
+
+    .project-selected-content {
+        height: 420px;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -689,6 +695,15 @@ footer .footer-content {
         padding: 10px;
     }
     
+}
+
+@media screen and (min-width: 1180px) {
+
+    #room-planner-img {
+        width: 40%;
+        transition: all ease-in-out 2s;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -745,8 +760,12 @@ footer .footer-content {
         top: 15%;
     }
 
+    .project-selected-content {
+        height: 400px;
+    }
+
     #css-quiz-img {
-        width: 70%
+        width: 80%
     }
 
      /* FOOTER */
@@ -796,7 +815,7 @@ footer .footer-content {
         right: 11%;
     }
 
-    #project-img {
-        width: 70%;
+    #css-quiz-img {
+        width: 90%
     }
 }
