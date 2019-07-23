@@ -12,8 +12,11 @@ Work Portfolio
 ### About Me
 ![alt text](images/visual2.png)
 
-### View Projects
+### My Projects
 ![alt text](images/visual3.png)
+
+### Resume
+![alt text](images/visual5.png)
 
 ### Contact Me
 ![alt text](images/visual4.png)
