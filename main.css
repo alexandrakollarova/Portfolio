@@ -164,6 +164,10 @@ header {
     text-align: left;
 }
 
+.projects h3 {
+    text-align: left
+}
+
 .projects h1 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -181,12 +185,16 @@ header {
     text-align: left;
 }
 
-#css-quiz-img {
+#css-quiz-img, #hacker-events-img {
     width: 90%;
 }
 
 #room-planner-img {
     width: 50%;
+}
+
+#fajitas-ritas-img {
+    width: 90%;
 }
 
 .live-repo h4, .tech-used h4 {
