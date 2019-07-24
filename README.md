@@ -14,12 +14,14 @@ Work Portfolio
 
 ### My Projects
 ![alt text](images/visual3.png)
+![alt text](images/visual4.png)
 
 ### Resume
 ![alt text](images/visual5.png)
+![alt text](images/visual6.png)
 
 ### Contact Me
-![alt text](images/visual4.png)
+![alt text](images/visual7.png)
 
 ## Tech Used:
 * JavaScript
