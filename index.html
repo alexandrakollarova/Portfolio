@@ -4,8 +4,8 @@
 <head>    
     <meta charset="UTF9">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <!-- <link rel='favicon' href='icons/infinity.jpg' type='image/infinity'/> -->
     <title>Alexandra Kollarova</title>
+    <link rel="shortcut icon" type="images/png" href="images/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat:400,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="main.css" rel="stylesheet"/>
@@ -77,12 +77,12 @@
                 <h1 class="about-title" hidden>About</h1>
             
                 <p>I'm a web developer, recent graduate of the Full Stack Web Development boot camp at Bloc and
-                    current graduate student working towards my Master's Degree in Interactive Design, Usability and Development and Interactive Design Usability. 
+                    current graduate student working towards my Master's Degree in Interactive Design, Usability and Development. 
                     <span>I love problem-solving and learning cool JavaScript libraries and frameworks. 
                     Some of my interests include coding, reading tech news, music, strength training, and cooking.
                     </span>
                     <span>I am excited to work within a development team where I can use my problem-solving ability
-                        and be a valuable team player at the same.
+                        and be a valuable team player at the same time.
                     </span> 
                     <span>Feel free to contact me and browse some of my projects.                        
                     </span>                    
@@ -117,22 +117,64 @@
         
             <section class="projects">         
                 <h1>Projects</h1>
-        
+                
+                <button class="project" id="hacker-events-project">
+                    <h3>Hacker Events</h3>
+                </button>
                 <button class="project" id="css-quiz-project">
                     <h3>CSS Quiz</h3>
                 </button>
                 <button class="project" id="room-planner-project">
                     <h3>Room Planner</h3>
-                </button>
-                <button class="project">
-                    <h3>Project 3</h3>
-                </button>
-                <button class="project">
-                    <h3 class="project4">Project 4</h3>
+                </button>                
+                <button class="project" id="fajitas-ritas-project">
+                    <h3>Fajitas &amp; 'Ritas Redesign</h3>
                 </button>
             </section>
+
+            <section class="project-selected" id="hacker-events-selected">                
         
-            <section class="project-selected" id="css-quiz-selected">                
+                    <h3>Hacker Events</h3>
+    
+                    <div class="project-selected-content">
+    
+                        <a href="https://alexandrakollarova.github.io/Hacker-Events/" target="_blank">
+                            <img src="images/hacker-events-img1.png" alt="hacker-events-interface" id="hacker-events-img">
+                        </a>            
+                                   
+                        <p>A cool place to search for hackathons around the world. Allow the browser to use your location and hit Search and/or modify your search using the slider range. Search for hackathon events in any city, state or country in the world!</p>
+                
+                        <section class="live-repo">
+                            <h4>LIVE:</h4>
+                
+                            <a href="https://alexandrakollarova.github.io/Hacker-Events/" target="_blank">Hacker Events</a>            
+                                        
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                        
+                            <h4>CODE:</h4>
+                                        
+                            <a href="https://github.com/alexandrakollarova/Hacker-Events" target="_blank">GitHub</a>           
+                                    
+                        </section>
+                
+                        <section class="tech-used">
+                
+                            <h4>Tech Used</h4>
+                
+                            <i class="devicon-html5-plain"></i>
+                            <i class="devicon-css3-plain"></i>
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-jquery-plain"></i>
+
+                            <h5 style="margin-top: 10px; margin-bottom: 0">EventBrite API</h5>
+                            <h5 style="margin: 5px 0">YouTube Data API</h5>
+                            <h5 style="margin: 5px 0">YouTube iFrame Player API</h5>
+                        </section>                     
+                    </div> 
+                      
+            </section>
+        
+            <section class="project-selected" id="css-quiz-selected" hidden>                
         
                 <h3>CSS Quiz</h3>
 
@@ -142,11 +184,7 @@
                         <img src="images/css-quiz-img1.jpg" alt="css-quiz-interface" id="css-quiz-img">
                     </a>            
                                
-                    <p>CSS can be somehow both very easy and super complex at the same time. 
-                        This app allows you to test your CSS skills. 
-                        Many of the concepts I included in this quiz may be familiar to you, yet not everyone can explain what they are doing.
-                        If you think you are a real master of CSS, take the quiz and prove yourself.                         
-                    </p>
+                    <p>CSS can be somehow both very easy and super complex at the same time. This app allows you to test your CSS skills. Many of the concepts I included in this quiz may be familiar to you, yet not everyone can explain what they are doing. If you think you are a real master of CSS, take the quiz and prove yourself.</p>
             
                     <section class="live-repo">
                         <h4>LIVE:</h4>
@@ -182,8 +220,7 @@
 
                     <a href="https://alexandrakollarova.github.io/Room-Planner/" target="_blank"> 
                         <img src="images/room-planner-img1.png" alt="room-planner-interface" id="room-planner-img">
-                    </a>       
-                    
+                    </a>                          
             
                     <p>Room Planner is a JavaScript application used to organize student’s room and study space according to their approximate shape of the room. App users will be able to design their room using the available selection of beds and desks stations, which has enough variety to give an idea of how it will look for any given style. The main purpose of this app is to achieve the best way to arrange the furniture according to the given shape of the room.</p>
             
@@ -210,8 +247,46 @@
                         <i class="devicon-jquery-plain"></i>                    
                             
                     </section>    
-                </section>
-            </div>
+                </div>
+            </section>
+            
+            <section class="project-selected" id="fajitas-ritas-selected" hidden>                
+        
+                <h3>Fajitas &amp; 'Ritas Redesign</h3>
+
+                <div class="project-selected-content">
+
+                    <a href="" target="_blank"> 
+                        <img src="images/f&r-img1.png" alt="fajitas-ritas-interface" id="fajitas-ritas-img">
+                    </a>                     
+                            
+                    <p>Fajitas &amp; 'Ritas is a Texas-Mexican restaurant located in Downtown Boston known for their comfort, late-night food and great margaritas.</p>
+            
+                    <section class="live-repo">
+
+                        <h4>PRESENTATION:</h4>
+                                        
+                        <a href="https://docs.google.com/presentation/d/e/2PACX-1vQOFOPv12JgCQwAfhq4TO4zU3LifCmT3xE3_AxiGB9CmolpHbdPSmNo0CEErfaK4U6lvZF0VPypjK47/embed?start=false&loop=false&delayms=3000" 
+                        target="_blank">Google Docs</a>           
+                                                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        <h4>VISUALS:</h4>
+                                    
+                        <a href="https://github.com/alexandrakollarova/Fajitas-Ritas-Redesign" target="_blank">GitHub</a>      
+                                
+                    </section>
+            
+                    <section class="tech-used">
+            
+                        <h4>Tech Used</h4>
+            
+                        <h5>Adobe XD</h5>                    
+                            
+                    </section>    
+                </div>
+            </section>
+            
         </section>
 
         <section class="resume-content" hidden>
@@ -244,7 +319,7 @@
                 <div class="resume-scroll">
                     <section class="resume-edu">                    
                     
-                        <h3>EDUCATION</h5>
+                        <h3>EDUCATION</h3>
 
                         <h4>Bloc</h4>
                         <p><strong>Full-Stack Web Developer BootCamp</strong></p>
@@ -264,9 +339,24 @@
                         <p>Comenius University | Bratislava, Slovakia</p>
 
                     </section>
+
+                    <section class="resume-skills">
+
+                            <h3>SOFTWARE KNOWLEDGE</h3>
+                            <h4>Programming:</h4>
+                            <p>HTML, CSS, JavaScript, jQuery, APIs, JSON, XML, React, Node, Bootstrap</p>
+    
+                            <h4>Tools:</h4>
+                            <p>Git, Postman, MS Office</p>
+    
+                            <h4>Database:</h4>
+                            <p>MySQL, PostgreSQL</p>
+
+                    </section>
+
                     <section class="resume-work">
 
-                        <h3>PROFESSIONAL EXPERIENCE</h3>
+                        <h3>UNRELATED WORK EXPERIENCE</h3>
                         <h4>Au-Pair in America - Cultural Exchange Program</h4>                    
                         <p><strong>11/2015 - 11/2017</strong></p>
                         <p>Lexington, MA, United States</p>
@@ -285,22 +375,12 @@
                         Managed sales marketing team with requests and projects for sales department objectives.
                         Delegated tasks to staff members to increase efficiency and productivity. 
                         </p>
-                    </section>
-
-                    <section class="resume-skills">
-
-                        <h3>SOFTWARE KNOWLEDGE</h3>
-                        <h4>Programming:</h4>
-                        <p>JavaScript, HTML, CSS</p>
-                        <h4>Technical:</h4>
-                        <p>jQuery, React, Node, Postman, Bootstrap, responsive web design, 
-                            WordPress, MS Office (Word, PowerPoint, and Excel)</p>
-                    </section>
-
+                    </section>                    
+<!-- 
                     <section class="resume-lang">
                         <h3>LANGUAGES</h3>
                         <p>English (Fluent), Slovak (Native and Fluent), Czech (Fluent)</p>
-                    </section>
+                    </section> -->
                 </div>
 
             </section>
@@ -336,7 +416,7 @@
                 <div class="email">
                     <h5>EMAIL</h5>
                     <p>
-                        <a href="mailto:alexandrakollarova91@gmail.com" class="linkGmail">ALEXANDRAKOLLAROVA@GMAIL.COM</a>
+                        <a href="mailto:alexandrakollarova91@gmail.com" class="linkGmail">ALEXANDRAKOLLAROVA91@GMAIL.COM</a>
                     </p>
                 </div>
                 
