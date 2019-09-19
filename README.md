@@ -18,9 +18,11 @@ Work Portfolio
 ### Resume
 ![alt text](images/visual5.png)
 ![alt text](images/visual6.png)
+![alt text](images/visual7.png)
+![alt text](images/visual8.png)
 
 ### Contact Me
-![alt text](images/visual7.png)
+![alt text](images/visual9.png)
 
 ## Tech Used:
 * JavaScript
