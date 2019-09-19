@@ -107,32 +107,32 @@ function viewProjects() {
              
         $("#hacker-events-selected").show();
         $("#css-quiz-selected").hide();
-        $("#room-planner-selected").hide();
         $("#fajitas-ritas-selected").hide();
+        $("#project3-selected").hide();
     }); 
 
     $('#css-quiz-project').on('click', function() {
              
         $("#css-quiz-selected").show();
-        $("#room-planner-selected").hide();
         $("#fajitas-ritas-selected").hide();
         $("#hacker-events-selected").hide();
+        $("#project3-selected").hide();
     }); 
 
-    $('#room-planner-project').on('click', function() {
+    // $('#project3').on('click', function() {
              
-        $("#room-planner-selected").show();
-        $("#css-quiz-selected").hide();
-        $("#fajitas-ritas-selected").hide();
-        $("#hacker-events-selected").hide();
-    });
+    //     $("#project3-selected").show();
+    //     $("#css-quiz-selected").hide();
+    //     $("#fajitas-ritas-selected").hide();
+    //     $("#hacker-events-selected").hide();
+    // }); 
     
     $('#fajitas-ritas-project').on('click', function() {
              
         $("#fajitas-ritas-selected").show();
         $("#css-quiz-selected").hide();
-        $("#room-planner-selected").hide();
         $("#hacker-events-selected").hide();
+        $("#project3-selected").hide();
     }); 
 }
 
