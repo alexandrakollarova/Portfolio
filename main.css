@@ -118,7 +118,7 @@ header {
     font-size: 14px
 }
 
-.resume-content .resume-work, .resume-content .resume-skills, .resume-content .resume-lang {
+.resume-content .resume-work, .resume-content .resume-edu, .resume-content .resume-skills, .resume-content .resume-lang {
     padding: 30px 0;
     border-top: solid 0.5px #212121;
 }
@@ -187,10 +187,6 @@ header {
 
 #css-quiz-img, #hacker-events-img {
     width: 90%;
-}
-
-#room-planner-img {
-    width: 50%;
 }
 
 #fajitas-ritas-img {
@@ -481,7 +477,7 @@ footer .footer-content {
         overflow-y: scroll;
         margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 50px;        
+        padding-bottom: 60px;        
     }
 
     ::-webkit-scrollbar {
@@ -733,7 +729,8 @@ footer .footer-content {
         line-height: 30px;
         padding-top: 30px;
         transition: all ease-in-out 2s;
-        overflow-y: auto
+        overflow-y: auto;
+        padding-bottom: 0px
     }
 
     /* RESUME */
@@ -796,14 +793,6 @@ footer .footer-content {
     
 }
 
-@media screen and (min-width: 1180px) {
-
-    #room-planner-img {
-        width: 40%;
-        transition: all ease-in-out 2s;
-    }
-
-}
 
 @media screen and (min-width: 1200px) {
 
