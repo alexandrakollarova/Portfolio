@@ -11,7 +11,8 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #212121
+    color: #212121;
+    outline: none;
 }
 
 button {
@@ -23,6 +24,7 @@ button {
     font-size: 12px;
     letter-spacing: 2px;
     background-color: inherit;
+    outline: none;
 }
 
 .work button {
@@ -185,11 +187,7 @@ header {
     text-align: left;
 }
 
-#css-quiz-img, #hacker-events-img {
-    width: 90%;
-}
-
-#fajitas-ritas-img {
+#css-quiz-img, #hacker-events-img, #fajitas-ritas-img, #where-to-eat-img {
     width: 90%;
 }
 
@@ -365,6 +363,10 @@ footer .footer-content {
         height: 100%;
         background-color: #EF5350;
         z-index: -1;
+
+        right: 0%;
+        padding-right: 0%;
+        margin-right: 0%;
     }
 
     .headline {
@@ -417,6 +419,10 @@ footer .footer-content {
         height: 100%;
         background-color: #CCD1D1;
         z-index: -2;
+
+        right: 0%;
+        padding-right: 0%;
+        margin-right: 0%;
     }
 
     #background-whitish {
