@@ -1,6 +1,6 @@
 # Portfolio
 
-## Live: [Alexandra Kollarova](https://alexandrakollarova.github.io/Portfolio/)
+## Live: [www.alexandrakollarova.com](https://alexandrakollarova.com)
 
 ## Description:
 Work Portfolio
